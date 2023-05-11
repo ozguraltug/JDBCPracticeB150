@@ -39,9 +39,10 @@ public class Query02 {
 
         con.close();
         st1.close();
+        // st2.close();
         st3.close();
         veri3.close();
-
-
+//veri.close();
+//veri2.close();
     }
 }
