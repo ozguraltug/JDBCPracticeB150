@@ -2,7 +2,7 @@
 <project version="4">
   <component name="DBNavigator.Project.DataEditorManager">
     <record-view-column-sorting-type value="BY_INDEX" />
-    <value-preview-text-wrapping value="true" />
+    <value-preview-text-wrapping value="false" />
     <value-preview-pinned value="false" />
   </component>
   <component name="DBNavigator.Project.DatabaseBrowserManager">
@@ -14,7 +14,8 @@
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="33589afc-2fb3-45e5-9909-1ada6ea03e00">
       <console name="Connection" type="STANDARD" schema="public" session="Main"><![CDATA[select * from ogrenciler
-select * from ogrenciler where puan>500]]></console>
+select * from ogrenciler where puan>500
+select * from mezunOgrenciler]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseEditorStateManager">
